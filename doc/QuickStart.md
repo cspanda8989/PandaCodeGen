@@ -28,7 +28,7 @@
 
 ## 使用步骤
 - 下载代码
-- 打开src/test/resources/data-dictionary-template.xlsx文件
+- 打开[模板文件](template/data-dictionary-template.xlsx)
 - 安装模板填写好数据字典
 - 保存并关闭数据字典
 - 生成Flyway项目，打开GenerateFlywayProjectTest，修改generateFlywayDemo中的globalSettings必填属性，</br>
@@ -56,3 +56,10 @@ mvn test -Dtest=GenerateSimpleAdminTest#generateDemo
 ``` 
 mvn test -Dtest=GenerateSimpleAdminTest#generateAdminDemoVue 
 ```
+
+## 各部分详细说明
+- [数据字典模板详解](template/TemplateDoc.md)
+- [flyway项目与功能说明](flyway/FlywayDoc.md)
+- [sharelib项目与功能说明](sharelib/SharelibDoc.md)
+- [springBootApp项目与功能说明](springbootApp/SpringBootAppDoc.md)
+- [springBootAdmin项目与功能说明](springbootManagementApp/SpringBoodManagementAppDoc.md)
